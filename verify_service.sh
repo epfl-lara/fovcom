@@ -1,0 +1,1 @@
+stainless-dotty -J-Xss100M asn1scala/*.scala "$1"/src/main/scala/asn1src/*.scala --functions=asn1src._ "${@:2}"
